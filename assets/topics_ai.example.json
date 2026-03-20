@@ -1,0 +1,32 @@
+{
+  "RL": [
+    "reinforcement\\s+learning",
+    "deep\\s+reinforcement\\s+learning",
+    "policy\\s+gradient",
+    "actor\\s*-?\\s*critic",
+    "q-?learning",
+    "reward\\s+optimization"
+  ],
+  "DT": [
+    "decision\\s+transformer",
+    "trajectory\\s+transformer",
+    "offline\\s+reinforcement\\s+learning\\s+transformer"
+  ],
+  "ICRL": [
+    "in-?context\\s+reinforcement\\s+learning",
+    "few-?shot\\s+reinforcement\\s+learning",
+    "prompt-?based\\s+reinforcement\\s+learning"
+  ],
+  "LLM": [
+    "large\\s+language\\s+model",
+    "llm",
+    "gpt",
+    "bert",
+    "transformer"
+  ],
+  "Diffusion": [
+    "diffusion\\s+model",
+    "score-?based\\s+generative",
+    "denoising\\s+diffusion"
+  ]
+}

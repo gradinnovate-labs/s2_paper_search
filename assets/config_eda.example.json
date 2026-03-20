@@ -1,0 +1,11 @@
+{
+  "queries": [
+    "physical design automation",
+    "placement routing",
+    "EDA machine learning"
+  ],
+  "year_range": "2024-2026",
+  "venues": ["TCAD", "TODAES", "ICCAD", "DAC", "ISPD", "ASPDAC", "DATE"],
+  "output": "eda_papers.csv",
+  "limit": 5000
+}

@@ -1,0 +1,12 @@
+{
+  "queries": [
+    "reinforcement learning",
+    "decision transformer",
+    "in-context learning reinforcement"
+  ],
+  "year_range": "2024-2026",
+  "venues": ["AAAI", "IJCAI", "NeurIPS", "ICML", "ICLR", "KDD"],
+  "topics": ["RL", "DT", "ICRL"],
+  "output": "ai_papers.csv",
+  "limit": 10000
+}

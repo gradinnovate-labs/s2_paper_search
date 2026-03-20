@@ -1,0 +1,110 @@
+{
+  "PD": [
+    "physical\\s+design",
+    "placement\\s+and\\s+routing",
+    "floorplanning",
+    "global\\s+placement",
+    "detailed\\s+placement",
+    "global\\s+routing",
+    "detailed\\s+routing",
+    "clock\\s+tree\\s+synthesis",
+    "cts",
+    "timing\\s+optimization"
+  ],
+  "ML4EDA": [
+    "machine\\s+learning\\s+for\\s+eda",
+    "ml-?based\\s+eda",
+    "deep\\s+learning\\s+eda",
+    "ai-?assisted\\s+physical\\s+design",
+    "neural\\s+network\\s+placement",
+    "learning-?based\\s+routing",
+    "graph\\s+neural\\s+network\\s+eda",
+    "reinforcement\\s+learning\\s+placement",
+    "rl-?based\\s+routing"
+  ],
+  "Logic": [
+    "logic\\s+synthesis",
+    "boolean\\s+satisfiability",
+    "sat\\s+solving",
+    "abc",
+    "and-inverter\\s+graph",
+    "aig",
+    "look-up\\s+table",
+    "lut",
+    "technology\\s+mapping"
+  ],
+  "Verification": [
+    "formal\\s+verification",
+    "equivalence\\s+checking",
+    "model\\s+checking",
+    "property\\s+checking",
+    "assertion-?based\\s+verification",
+    "simulation",
+    "testbench"
+  ],
+  "Timing": [
+    "static\\s+timing\\s+analysis",
+    "sta",
+    "timing\\s+analysis",
+    "timing\\s+closure",
+    "timing\\s+optimization",
+    "slack",
+    "critical\\s+path",
+    "timing\\s+constraint"
+  ],
+  "Power": [
+    "power\\s+analysis",
+    "power\\s+optimization",
+    "low\\s+power\\s+design",
+    "dynamic\\s+power",
+    "static\\s+power",
+    "leakage\\s+power",
+    "power\\s+gating",
+    "clock\\s+gating",
+    "voltage\\s+scaling"
+  ],
+  "Test": [
+    "design\\s+for\\s+testability",
+    "dft",
+    "automatic\\s+test\\s+pattern\\s+generation",
+    "atpg",
+    "built-in\\s+self\\s+test",
+    "bist",
+    "scan\\s+chain",
+    "fault\\s+diagnosis",
+    "defect\\s+detection"
+  ],
+  "FPGA": [
+    "fpga",
+    "field\\s+programmable\\s+gate\\s+array",
+    "fpga\\s+placement",
+    "fpga\\s+routing",
+    "high-level\\s+synthesis",
+    "bitstream"
+  ],
+  "Analog": [
+    "analog\\s+layout",
+    "analog\\s+design\\s+automation",
+    "schematic\\s+layout",
+    "parasitic\\s+extraction",
+    "lvs",
+    "drc"
+  ],
+  "3DIC": [
+    "3d\\s+ic",
+    "three-?dimensional\\s+integrated\\s+circuit",
+    "through-?silicon\\s+via",
+    "tsv",
+    "monolithic\\s+3d",
+    "die\\s+stacking"
+  ],
+  "Security": [
+    "hardware\\s+security",
+    "side-?channel\\s+attack",
+    "trojan\\s+detection",
+    "ip\\s+protection",
+    "hardware\\s+obfuscation",
+    "physically\\s+unclonable\\s+function",
+    "puf"
+  ]
+}

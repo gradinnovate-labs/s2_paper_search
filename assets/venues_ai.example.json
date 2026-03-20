@@ -1,0 +1,11 @@
+{
+  "AAAI": ["aaai", "association\\s+for\\s+the\\s+advancement\\s+of\\s+artificial\\s+intelligence"],
+  "IJCAI": ["ijcai", "international\\s+joint\\s+conference\\s+on\\s+artificial\\s+intelligence"],
+  "NeurIPS": ["neurips", "neural\\s+information\\s+processing\\s+systems", "advances\\s+in\\s+neural\\s+information\\s+processing\\s+systems"],
+  "ICML": ["icml", "international\\s+conference\\s+on\\s+machine\\s+learning"],
+  "ICLR": ["iclr", "international\\s+conference\\s+on\\s+learning\\s+representations"],
+  "KDD": ["kdd", "knowledge\\s+discovery\\s+and\\s+data\\s+mining", "acm\\s+sigkdd"],
+  "CVPR": ["cvpr", "computer\\s+vision\\s+and\\s+pattern\\s+recognition"],
+  "ACL": ["acl", "association\\s+for\\s+computational\\s+linguistics"],
+  "EMNLP": ["emnlp", "empirical\\s+methods\\s+in\\s+natural\\s+language\\s+processing"]
+}

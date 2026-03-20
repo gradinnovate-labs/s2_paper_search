@@ -1,0 +1,141 @@
+{
+  "TCAD": [
+    "ieee\\s+transactions\\s+on\\s+computer-aided\\s+design",
+    "trans\\s+computer-aided\\s+design",
+    "tcad",
+    "computer-aided\\s+design\\s+of\\s+integrated\\s+circuits"
+  ],
+  "TODAES": [
+    "acm\\s+transactions\\s+on\\s+design\\s+automation",
+    "trans\\s+design\\s+automation",
+    "todaes",
+    "design\\s+automation\\s+of\\s+electronic\\s+systems"
+  ],
+  "TVLSI": [
+    "ieee\\s+transactions\\s+on\\s+vlsi",
+    "trans\\s+very\\s+large\\s+scale\\s+integration",
+    "tvlsi",
+    "vlsi\\s+systems"
+  ],
+  "TCAS-I": [
+    "ieee\\s+transactions\\s+on\\s+circuits\\s+and\\s+systems\\s+i",
+    "trans\\s+circuits\\s+and\\s+systems\\s+i",
+    "tcas[-\\s]*i"
+  ],
+  "TCAS-II": [
+    "ieee\\s+transactions\\s+on\\s+circuits\\s+and\\s+systems\\s+ii",
+    "trans\\s+circuits\\s+and\\s+systems\\s+ii",
+    "tcas[-\\s]*ii"
+  ],
+  "DAC": [
+    "design\\s+automation\\s+conference",
+    "\\bdac\\b",
+    "acm/ieee\\s+design\\s+automation"
+  ],
+  "ICCAD": [
+    "international\\s+conference\\s+on\\s+computer-aided\\s+design",
+    "\\biccad\\b",
+    "ieee/acm\\s+international\\s+conference\\s+on\\s+computer-aided\\s+design"
+  ],
+  "DATE": [
+    "design,\\s*automation\\s+and\\s+test\\s+in\\s+europe",
+    "\\bdate\\b",
+    "design\\s+automation\\s+test\\s+europe"
+  ],
+  "ASPDAC": [
+    "asia\\s+and\\s+south\\s+pacific\\s+design\\s+automation\\s+conference",
+    "\\baspdac\\b",
+    "asia\\s+pacific\\s+design\\s+automation"
+  ],
+  "ISPD": [
+    "international\\s+symposium\\s+on\\s+physical\\s+design",
+    "\\bispd\\b",
+    "physical\\s+design\\s+symposium"
+  ],
+  "ISQED": [
+    "international\\s+symposium\\s+on\\s+quality\\s+electronic\\s+design",
+    "\\bisqed\\b",
+    "quality\\s+electronic\\s+design"
+  ],
+  "GLSVLSI": [
+    "great\\s+lakes\\s+symposium\\s+on\\s+vlsi",
+    "\\bglsvlsi\\b",
+    "great\\s+lakes\\s+vlsi"
+  ],
+  "ISCAS": [
+    "international\\s+symposium\\s+on\\s+circuits\\s+and\\s+systems",
+    "\\biscas\\b",
+    "ieee\\s+international\\s+symposium\\s+on\\s+circuits"
+  ],
+  "ISSCC": [
+    "international\\s+solid-state\\s+circuits\\s+conference",
+    "\\bisscc\\b",
+    "solid-state\\s+circuits\\s+conference"
+  ],
+  "VLSI-SOC": [
+    "ifip/vlsisoc",
+    "vlsi-soc",
+    "vlsi\\s+system-on-chip",
+    "international\\s+conference\\s+on\\s+vlsi"
+  ],
+  "NOCS": [
+    "international\\s+symposium\\s+on\\s+networks-on-chip",
+    "\\bnocs\\b",
+    "networks-on-chip\\s+symposium"
+  ],
+  "CODES+ISSS": [
+    "international\\s+conference\\s+on\\s+hardware/software\\s+codesign",
+    "\\bcodes\\+isss\\b",
+    "codesign\\s+and\\s+system\\s+synthesis"
+  ],
+  "FPL": [
+    "international\\s+conference\\s+on\\s+field\\s+programmable\\s+logic",
+    "\\bfpl\\b",
+    "field\\s+programmable\\s+logic\\s+and\\s+applications"
+  ],
+  "FPGA": [
+    "acm/sigda\\s+international\\s+symposium\\s+on\\s+field\\s+programmable\\s+gate\\s+arrays",
+    "\\bfpga\\b",
+    "field\\s+programmable\\s+gate\\s+arrays\\s+symposium"
+  ],
+  "SLIP": [
+    "symposium\\s+on\\s+physical\\s+and\\s+logic\\s+implementation",
+    "\\bslip\\b",
+    "system\\s+level\\s+interconnect\\s+prediction"
+  ],
+  "ITC": [
+    "international\\s+test\\s+conference",
+    "\\bitc\\b",
+    "ieee\\s+international\\s+test\\s+conference"
+  ],
+  "VTS": [
+    "vlsi\\s+test\\s+symposium",
+    "\\bvts\\b",
+    "ieee\\s+vlsi\\s+test\\s+symposium"
+  ],
+  "ETS": [
+    "european\\s+test\\s+symposium",
+    "\\bets\\b"
+  ],
+  "ATS": [
+    "asian\\s+test\\s+symposium",
+    "\\bats\\b"
+  ],
+  "ISLPED": [
+    "international\\s+symposium\\s+on\\s+low\\s+power\\s+electronics\\s+and\\s+design",
+    "\\bislped\\b",
+    "low\\s+power\\s+electronics\\s+and\\s+design"
+  ],
+  "MWSCAS": [
+    "midwest\\s+symposium\\s+on\\s+circuits\\s+and\\s+systems",
+    "\\bmwscas\\b"
+  ],
+  "APCCAS": [
+    "asia\\s+pacific\\s+conference\\s+on\\s+circuits\\s+and\\s+systems",
+    "\\bapccas\\b"
+  ],
+  "ICECS": [
+    "international\\s+conference\\s+on\\s+electronics,\\s+circuits\\s+and\\s+systems",
+    "\\biceps\\b"
+  ]
+}
