@@ -7,9 +7,11 @@
   ],
   "TODAES": [
     "acm\\s+transactions\\s+on\\s+design\\s+automation",
-    "trans\\s+design\\s+automation",
+    "acm\\s+trans\\.?\\s+design\\s+autom",
+    "trans\\.?\\s*design\\s+autom",
     "todaes",
-    "design\\s+automation\\s+of\\s+electronic\\s+systems"
+    "design\\s+automation\\s+of\\s+electronic\\s+systems",
+    "design\\s+autom\\.?\\s+electr"
   ],
   "TVLSI": [
     "ieee\\s+transactions\\s+on\\s+vlsi",

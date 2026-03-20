@@ -169,7 +169,10 @@ CSV 檔案包含以下欄位：
 2. **沒有符合的論文**
    - 檢查 `--venues` 和 `--topics` 是否過於嚴格
    - 嘗試更寬鬆的搜尋詞
-   - 不使用 `--venue-file` 和 `--topic-file` 進行初步搜尋
+   - **重要**: 使用 `--venue-file` 時必須同時使用對應的 `--topic-file`
+     - EDA 領域需同時指定 `--venue-file assets/venues_eda.example.json --topic-file assets/topics_eda.example.json`
+     - 若只用 `--venue-file` 會使用預設 AI 主題，導致 EDA 論文被過濾
+   - 若要取消主題過濾，可建立空的 topics.json: `{}`
 
 3. **會議名稱不正確**
    - 編輯 `assets/venues_*.example.json` 添加新的匹配模式
