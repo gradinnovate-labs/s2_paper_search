@@ -48,7 +48,7 @@ class S2APIClient:
         max_retries: int = 3
     ):
         """搜尋論文"""
-        default_fields = ["title", "abstract", "authors", "venue", "year", "url", "publicationDate", "paperId"]
+        default_fields = ["title", "abstract", "authors", "venue", "year", "url", "publicationDate", "paperId", "citationCount"]
         
         params = {
             "query": query,
@@ -184,7 +184,7 @@ class CSVExporter:
     
     def __init__(self, output_path: str, fieldnames: List[str] | None = None):
         self.output_path = output_path
-        self.fieldnames = fieldnames or ["標題", "摘要", "連結", "作者", "日期", "會議", "主題"]
+        self.fieldnames = fieldnames or ["標題", "摘要", "連結", "作者", "日期", "會議", "主題", "引用次數"]
         self.papers: List[dict] = []
         self.seen_ids: set = set()
     
@@ -373,7 +373,8 @@ def main():
                         "作者": authors,
                         "日期": paper.get("publicationDate") or str(paper.get("year", "")),
                         "會議": paper_filter.normalize_venue(venue),
-                        "主題": ", ".join(matched_topics)
+                        "主題": ", ".join(matched_topics),
+                        "引用次數": paper.get("citationCount", 0)
                     }
                     
                     if exporter.add_paper(paper_data, paper.get("paperId")):
